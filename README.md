@@ -49,7 +49,7 @@ Here’s an example of how to load a Parquet file using Python and Pandas:
 import pandas as pd
 
 # Read the Parquet file
-data = pd.read_json("path/to/your/xsum-00000-of-00001.parquet",lines=True)
+data = pd.read_json("path/to/your/xsum-00000-of-00001.json",lines=True)
 
 # View the first five rows of the data
 print(data.head())
